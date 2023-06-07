@@ -54,8 +54,8 @@ function showSlide(n) {
 
 function moveSlideLogic(walkVAR, moveOffsetVAR) {
   if (walkVAR < moveOffsetVAR && walkVAR > -moveOffsetVAR) return;
-  if (walkVAR > moveOffsetVAR) showSlide(currentSlide + 1)
-  if (walkVAR < -moveOffsetVAR) showSlide(currentSlide - 1);
+  if (walkVAR > moveOffsetVAR) showSlide(currentSlide - 1)
+  if (walkVAR < -moveOffsetVAR) showSlide(currentSlide + 1);
 }
 
 
